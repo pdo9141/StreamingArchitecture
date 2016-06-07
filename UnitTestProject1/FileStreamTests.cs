@@ -6,7 +6,7 @@ using System.Security.AccessControl;
 namespace UnitTestProject1
 {
     [TestClass]
-    public class FileStreamTest
+    public class FileStreamTests
     {
         [TestMethod]
         public void Open_Read_Write_Create_Differences_Test()

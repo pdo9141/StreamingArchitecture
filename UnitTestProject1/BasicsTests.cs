@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace UnitTestProject1
 {
     [TestClass]
-    public class BasicsTest
+    public class BasicsTests
     {
         [TestMethod]
         public void Unreliable_Read_Test()
