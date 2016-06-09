@@ -57,7 +57,9 @@
     <Compile Include="FileStreamTests.cs" />
     <Compile Include="IsolatedStorageFileStreamTests.cs" />
     <Compile Include="PipeStreamInterprocessCommunicationTests.cs" />
+    <Compile Include="MemoryStreamMemoryMappedTests.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
