@@ -58,6 +58,7 @@
     <Compile Include="IsolatedStorageFileStreamTests.cs" />
     <Compile Include="PipeStreamInterprocessCommunicationTests.cs" />
     <Compile Include="MemoryStreamMemoryMappedTests.cs" />
+    <Compile Include="WebNetworkStreamsTests.cs" />
   </ItemGroup>
   <ItemGroup />
   <Choose>
