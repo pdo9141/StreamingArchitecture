@@ -59,6 +59,7 @@
     <Compile Include="PipeStreamInterprocessCommunicationTests.cs" />
     <Compile Include="MemoryStreamMemoryMappedTests.cs" />
     <Compile Include="DecoratorStreamTests.cs" />
+    <Compile Include="StreamAdapterTests.cs" />
     <Compile Include="WebNetworkStreamsTests.cs" />
   </ItemGroup>
   <ItemGroup />

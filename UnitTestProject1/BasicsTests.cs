@@ -8,6 +8,25 @@ namespace UnitTestProject1
     public class BasicsTests
     {
         [TestMethod]
+        public void Stream_Basics_Test()
+        {
+            // Backing Stores
+            //----FileStream, file system
+            //----MemoryStream, memory
+            //----NetworkStream, TCP, sockets
+            // Decorator Streams
+            //----GZipStream
+            //----CryptoStream
+            //----BufferedStream
+            //----DeflateStream
+            //----AuthenticatedStream
+            // Stream Adapters
+            //----StreamReader/StreamWriter
+            //----BinaryReader/BinaryWriter
+            //----XmlReader/XmlWriter
+        }
+
+        [TestMethod]
         public void Unreliable_Read_Test()
         {
             MemoryStream stream = new MemoryStream();
