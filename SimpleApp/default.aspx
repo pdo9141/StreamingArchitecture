@@ -12,8 +12,10 @@
         <script runat="server">
             void Page_Load(object sender, EventArgs e)
             {
-                lbl.Text = "You posted " + Request.Form["val1"]
-                    + " and " + Request.Form["val2"];
+                System.Threading.Thread.Sleep(10000);
+                lbl.Text = "Hello";
+
+                //lbl.Text = "You posted " + Request.Form["val1"] + " and " + Request.Form["val2"];
             }
 
         </script>
